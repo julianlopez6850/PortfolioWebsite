@@ -1,38 +1,115 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+  background-color: #2d2d2d;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  display: flow-root;
+
+  font-size: calc(10px * 2vmin);
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+#app__header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #5f5858;
+  margin: 40px;
+  font-size: 0.7em;
+  border-radius: 200px;
+
+  box-shadow: 0px 5px 4px rgba(0, 0, 0, 0.3)
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#name {
+  align-self: center;
+}
+
+#btn__group {
+  position: absolute;
+  display: flex;
+  right: 40px;
+
+  padding: 10px;
+}
+
+#btn__group button {
+  padding: 16px 32px;
+  margin: 16px;
+  font-size: 1em;
+  background-color: #857B7B;
+  border-radius: 200px;
+  color:white;
+
+  box-shadow: 4px 4px 0 rgba(0, 0, 0, 0.4);
+  transition: 0.5s all;
+  border: none;
+}
+
+#btn__group button:hover {
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.6)
+}
+
+#btn__group button:active {
+  box-shadow: -4px -4px 0 rgba(0, 0, 0, 0.6)
+}
+
+#app__body {
+  margin-left: 70px;
+  display: flex;
+}
+
+#body__left {
+  width: 60vw;
+}
+
+#body__left img{
+  height: 80px;
+  margin-right: 20px;
+}
+
+#body__right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: calc(40vw + 70px);
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+#card__btn__group button {
+  padding: 16px 32px;
+  margin: 16px;
+  padding-left: 30px;
+  font-size: 1em;
+  background-color: #5cb6d1;
+  border-radius: 200px;
+  color:rgba(0, 0, 0, 0.7);
+
+  box-shadow: 4px 4px 0 rgba(0, 0, 0, 0.4);
+  transition: 0.5s all;
+  border: none;
+}
+
+#card__btn__group button:hover {
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.685);
+}
+
+#card__btn__group button:active {
+  
+  box-shadow: 4px 4px 50px rgba(0, 0, 0, 0.55);
+}
+
+.project__card {
+  border: 1px black solid;
+  background-color: #474343;
+  border-radius: 15px;
+  margin-bottom: 10px;
+  width: 100%;
+  height: 25vh;
+  box-shadow: 0 5px 4px rgba(0, 0, 0, 0.3)
+}
+
+.project__card__header {
+  display: flex;
+  align-items: center;
 }
