@@ -4,6 +4,7 @@ import '../App.css';
 import '../styles/RotateLogo.css';
 
 import ambigramLogo from '../assets/NameAmbigramCircle.png';
+import initialsLogo from '../assets/JL2.svg';
 
 function Navbar() {
     return (
@@ -24,7 +25,7 @@ function Navbar() {
         // </div>
 
         <div id="app__header">
-            <img className = "rotate_img" src={ambigramLogo} />
+            <img className = "rotate_img" src={initialsLogo} />
             <h1 id ="name">Julian Lopez</h1>
         </div>
 

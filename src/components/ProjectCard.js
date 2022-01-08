@@ -16,21 +16,21 @@ function ProjectCard(props) {
       {
         return(
           <div className="project__card">
-          <div id ="card__body">
-            <div id="card__left">
+          <div id ="project__card__body">
+            <div id="project__card__left">
               <div className="project__card__header">
                 <img style={{margin: "10px"}} src={props.img} width="83px"></img>
                 <h3 style = {{margin: "0", marginLeft: "20px"}}>{props.name}</h3>
               </div>
               
               <p style={{marginTop: "10px", marginLeft: "20px", fontSize: "0.8em"}}>{props.desc}</p>
-              <div id ="card__btn__group">
+              <div id ="project__card__btnp">
                 {devpostButton}
                 {githubButton}
                 {playButton}
               </div>
             </div>
-            <div id="card__right">
+            <div id="project__card__right">
               <img style={{margin: "10px"}} src={props.img2} width="400px"></img>
               
             </div>
@@ -40,8 +40,8 @@ function ProjectCard(props) {
       }
       return (
         <div className="project__card">
-          <div id ="card__body">
-            <div id="card__left">
+          <div id ="project__card__body">
+            <div id="project__card__left">
               <div className="project__card__header">
                 <img style={{margin: "10px"}} src={props.img} width="83px"></img>
                 <h3 style = {{margin: "0", marginLeft: "20px"}}>{props.name}</h3>
@@ -51,12 +51,12 @@ function ProjectCard(props) {
               
               
             </div>
-            <div id="card__right">
+            <div id="project__card__right">
               <img style={{margin: "10px"}} src={props.img2} width="400px"></img>
             </div>
           </div>
           
-          <div id ="card__btn__group">
+          <div id ="project__card__btn">
                 {devpostButton}
                 {githubButton}
                 {playButton}
@@ -74,7 +74,7 @@ function ProjectCard(props) {
   
         <p style={{marginTop: "10px", marginLeft: "20px", fontSize: "0.8em"}}>{props.desc}</p>
         
-        <div id ="card__btn__group">
+        <div id ="project__card__btn">
           {devpostButton}
           {githubButton}
           {playButton}

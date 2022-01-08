@@ -6,7 +6,7 @@ function Footer() {
     return(
         <div id="app__footer">
             <h1 id ="name"><br/></h1>
-            <div id ="footer_btn__group">
+            <div id ="footer__btn">
                 <button onClick={function() {
                 window.open("https://www.linkedin.com/in/julian-lopez-1906311b8/")
                 }}>LinkedIn</button>

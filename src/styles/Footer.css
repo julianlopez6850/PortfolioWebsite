@@ -1,0 +1,43 @@
+
+#app__footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    background-color: #5f5858;
+  
+    margin: 30px 10px 20px 10px;
+  
+    font-size: 0.7em;
+    border-radius: 200px;
+  
+    box-shadow: 0px 5px 4px rgba(0, 0, 0, 0.3)
+  }
+
+  #footer__btn {
+    position: absolute;
+    display: flex;
+  
+    padding: 10px;
+  }
+  
+  #footer__btn button {
+    padding: 16px 32px;
+    margin: 16px;
+    font-size: 1em;
+    background-color: #857B7B;
+    border-radius: 200px;
+    color:white;
+  
+    box-shadow: 4px 4px 0 rgba(0, 0, 0, 0.4);
+    transition: 0.5s all;
+    border: none;
+  }
+  
+  #footer__btn button:hover {
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.6)
+  }
+  
+  #footer__btn button:active {
+    box-shadow: -4px -4px 0 rgba(0, 0, 0, 0.6)
+  }

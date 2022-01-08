@@ -3,10 +3,10 @@
 
 .rotate_img{
     position: absolute;
-    top: 60px;
-    left: -36px;
-    width: 80px;
-    height: 80px;
+    top: 66px;
+    left: -32px;
+    width: 36px;
+    height: 36px;
     margin: -60px 0 0 150px;
 
     -webkit-animation: spin 24s linear infinite;

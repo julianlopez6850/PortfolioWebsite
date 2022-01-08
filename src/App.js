@@ -1,4 +1,7 @@
 import './App.css';
+import './styles/Projects.css';
+import './styles/Navbar.css';
+import './styles/Footer.css';
 
 import Navbar from './components/Navbar.js';
 import Footer from './components/Footer.js';
